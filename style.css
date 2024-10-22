@@ -295,12 +295,14 @@ footer .links a {
   }
 
   .navbar .dropdown .dropdown-content {
+    display: block;
+    left: -1000px;
     position: absolute;
     background-color: #fff;
   }
 
   .navbar .dropdown .dropdown-content.active {
-    display: block;
+    left: 0;
   }
 
   .navbar .dropdown .dropdown-content a {
